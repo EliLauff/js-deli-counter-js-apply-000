@@ -2,8 +2,8 @@ let n = 1
 
 function takeANumber(katzDeliLine,n){
   katzDeliLine.push(n)
-  return `Welcome. You are number ${(katzDeliLine.indexOf(name)+1)} in line.`
-  n++
+
+  n++  return `Welcome. You are number ${(katzDeliLine.indexOf(name)+1)} in line.`
 }
 
 function nowServing(katzDeliLine){
